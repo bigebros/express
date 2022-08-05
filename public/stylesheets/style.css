@@ -1,8 +1,19 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: antiquewhite;
 }
 
 a {
-  color: #00B7FF;
+
+  text-decoration: none;
+}
+
+.form-section {
+  gap: 20px;
+  display: flex;
+}
+
+button {
+  margin-top: 20px;
 }

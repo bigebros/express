@@ -1,5 +1,13 @@
 extends layout
 
+
+
 block content
+  a( href='/new' ) Create New Message
   h1= title
-  p Welcome to #{title}
+  div( class='messageContainer' )
+    each val in messages
+      div( class='messageCard' )
+        h2= val.user
+        p= val.text
+        p= val.added
